@@ -17,6 +17,7 @@
             position: fixed;
             top:0;
             left: 0;
+            z-index: 7;
         }
         #escudo{
             position: absolute;
@@ -62,7 +63,6 @@
         #contenido{
             font-family: "Raleway", Helvetica, Arial, sans-serif;
             position: relative;
-            background-color: rgb(187, 233, 187);
             top: 200px;
             width: 100%;
             height: 100px;
@@ -72,13 +72,29 @@
             position: absolute;
             left: 40%;
         }
+        .parrafo{
+            position: relative;
+            top: 100%;
+            width: 100%;
+            height: 700px;
+        }
         .dev1{
             color: red;
             font-family: 'Press Start 2P', cursive;
+            font-weight: 600px;
+            font-size: 15px;
+            left: 15%;
+            right: 15%;
+            position: absolute;
         }
         .dev2{
             color: lime;
             font-family: 'Press Start 2P', cursive;
+            font-weight: 600px;
+            font-size: 15px;
+            left: 15%;
+            right: 15%;
+            position: absolute;
         }
     </style>
 </head>
@@ -112,7 +128,10 @@
         <section class="titulo">
             <h2> El CODEBA en el 2023 </h2>
         </section>
-        <p class="dev1"></p>
+        <section class="parrafo">
+            <p class="dev1">Dev1: Hola a todos!!! bienvenidos a la revista más importante del colegio codeba!!! la revista...</p>
+            <p class="dev2">Dev2: Si... tuvimos que pensar en eso no?</p>
+        </section>
     </div>
 </body>
 </html>
