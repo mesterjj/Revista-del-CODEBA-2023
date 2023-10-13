@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>CODEBA en el 2023</title>
     <style>
         .header{
@@ -59,10 +62,23 @@
         #contenido{
             font-family: "Raleway", Helvetica, Arial, sans-serif;
             position: relative;
-            background-color: aqua;
+            background-color: rgb(187, 233, 187);
             top: 200px;
+            width: 100%;
+            height: 100px;
+            display: inline-block;
+        }
+        .titulo{
+            position: absolute;
             left: 40%;
-            width: 700px;
+        }
+        .dev1{
+            color: red;
+            font-family: 'Press Start 2P', cursive;
+        }
+        .dev2{
+            color: lime;
+            font-family: 'Press Start 2P', cursive;
         }
     </style>
 </head>
@@ -76,7 +92,7 @@
                 <a id="pagHome" href="https://www.codeba.edu.co/">I.E.D CODEBA</a>
             </h1>
             <div>
-                <nav id="navDirections">
+                <nav>
                     <ul  id="pageDirections">
                         <li>
                             <a href="https://www.codeba.edu.co/">Inicio</a>
@@ -93,9 +109,10 @@
         </header>
     </div>
     <div id="contenido">
-        <section>
+        <section class="titulo">
             <h2> El CODEBA en el 2023 </h2>
         </section>
+        <p class="dev1"></p>
     </div>
 </body>
 </html>
