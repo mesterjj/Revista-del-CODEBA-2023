@@ -85,7 +85,35 @@
             background-color: lime;
         }
         /*de una con el footer*/
-
+        #footer{
+            position: relative;
+            top: 250px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #050505;
+            align-items: center;
+        }
+        #fooDirect{
+            display: flex;
+            list-style: none;
+            flex-direction: column;
+            font-size: 17px;
+        }
+        #MENÚ{
+            font-family: "Raleway", Helvetica, Arial, sans-serif;
+            color: white;
+            font-size: 20px;
+        }
+        #fooDirect > li > a{
+            color: #777777;
+            text-decoration: none;
+            font-family: "Raleway", Helvetica, Arial, sans-serif;
+        }
+        #schoolInfo{
+            font-family: "Raleway", Helvetica, Arial, sans-serif;
+            color: #bbbbbb;
+        }
     </style>
 </head>
 <body>
@@ -142,7 +170,20 @@
         </p>
     </section>
     <div id="footer">
-        
+        <ul id="fooDirect">
+            <h3 id="MENÚ">MENÚ</h3>
+            <li>
+                <a href="https://www.codeba.edu.co/">Inicio</a>
+            </li>
+            <li>
+                <a href="https://www.codeba.edu.co/informacion-institucional">Información institucional</a>
+            </li>
+            <li>
+                <a href="https://sismac.info">Sistema de notas</a>
+            </li>
+        </ul>
+        <p id="schoolInfo">"Ser ESTUDIANTE del codeba es un honor"</p>
+        <p id="schoolInfo">Institución Educativa Distrital de Barranquilla CODEBA<br><strong>NIT&nbsp;</strong>890.103.812-6<br>Calle 68 No. 47 – 64 Barrio Boston<br>informacion@codeba.edu.co</p>
     </div>
 </body>
 </html>
